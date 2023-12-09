@@ -1,0 +1,9 @@
+Package: todolist
+Version: 1.01
+Architecture: i386
+Essential: no
+Priority: optional
+Depends: libqt5widgets5.
+Maintainer: Ashers Programs[ashersprograms.com]
+Description: Events, Notes, and Tasks Desktop application aims to simplify your work flow. Works with Conky
+Ashers Programs has developed an open source project that aims at creating and easy to use application that can run independently or as a companion with Conky! With our companion Conky configuration files you can display your Events, Notes, Tasks, Weather, and fortune(if installed). Many themes are included with this package. This project aim at using Conky the way that you want it to look and act.
