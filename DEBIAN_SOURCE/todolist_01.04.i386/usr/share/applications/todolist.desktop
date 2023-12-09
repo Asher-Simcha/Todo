@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=To Do List
+Comment=Easy way to Edit Events, Notes, and Tasks
+Exec=/usr/bin/ashers_toggle.sh -n -p /usr/bin/todo_list 
+Icon=todoList.png
+Path=
+Terminal=false
+StartupNotify=false
+Categories=Accessories;Office;
+Keywords=conky;to;do;list;asher;ash;ashers;tasks;events;note;notes;
