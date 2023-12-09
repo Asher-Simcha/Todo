@@ -1,2 +1,2 @@
 # Todo
-Stand Alone and Companion App for Conky including theme that work with both
+Stand Alone and Companion App for Conky including themes that work with both
