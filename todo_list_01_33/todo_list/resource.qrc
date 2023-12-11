@@ -1,0 +1,41 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/todoList.png</file>
+        <file>img/todo_background.png</file>
+        <file>img/todo_background_2.png</file>
+        <file>img/black.png</file>
+        <file>img/clear_icon_dark.png</file>
+        <file>img/clear_icon_white.png</file>
+        <file>img/event_Background.png</file>
+        <file>img/event_icon_dark.png</file>
+        <file>img/event_icon_white.png</file>
+        <file>img/task_Background.png</file>
+        <file>img/bottom_Background.png</file>
+        <file>img/background.png</file>
+        <file>img/QT_Logo.png</file>
+        <file>img/QT_window.png</file>
+        <file>img/note_Background.png</file>
+        <file>img/quit_icon_dark.png</file>
+        <file>img/quit_icon_white.png</file>
+        <file>img/notes_icon_dark.png</file>
+        <file>img/notes_icon_white.png</file>
+        <file>img/Reload_icon_dark.png</file>
+        <file>img/Reload_icon_white.png</file>
+        <file>img/save_icon_dark.png</file>
+        <file>img/save_icon_white.png</file>
+        <file>img/screenrecorder_icon_dark.png</file>
+        <file>img/screenrecorder_icon_white.png</file>
+        <file>img/screenshot_icon_dark.png</file>
+        <file>img/screenshot_icon_white.png</file>
+        <file>img/show_icon_dark.png</file>
+        <file>img/show_icon_white.png</file>
+        <file>img/task_icon_dark.png</file>
+        <file>img/task_icon_white.png</file>
+        <file>img/toggle_icon_dark.png</file>
+        <file>img/toggle_icon_white.png</file>
+        <file>img/viewall_icon_dark.png</file>
+        <file>img/viewall_icon_white.png</file>
+        <file>img/todoList_icon.png</file>
+        <file>img/ashersprograms_logo.png</file>
+    </qresource>
+</RCC>

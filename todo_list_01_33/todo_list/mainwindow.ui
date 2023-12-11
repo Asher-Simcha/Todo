@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1543</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>To Do List</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resource.qrc">
+    <normaloff>:/img/todoList_icon.png</normaloff>:/img/todoList_icon.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/img/background.png);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QGroupBox" name="groupBox_task">
+      <property name="title">
+       <string>Tasks</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QGroupBox" name="groupBox_task_1">
+         <property name="title">
+          <string>Task 1</string>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="QCheckBox" name="checkBox_task_1">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QTextEdit" name="textEdit_task_1">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-image: url(:/img/event_Background.png);</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupBox_task_2">
+         <property name="title">
+          <string>Task 2</string>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_3">
+          <item>
+           <widget class="QCheckBox" name="checkBox_task_2">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QTextEdit" name="textEdit_task_2">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-image: url(:/img/event_Background.png);</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupBox_task_3">
+         <property name="title">
+          <string>Task 3</string>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_4">
+          <item>
+           <widget class="QCheckBox" name="checkBox_task_3">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QTextEdit" name="textEdit_task_3">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-image: url(:/img/event_Background.png);</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupBox_task_4">
+         <property name="title">
+          <string>Task 4</string>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_5">
+          <item>
+           <widget class="QCheckBox" name="checkBox_task_4">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QTextEdit" name="textEdit_task_4">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-image: url(:/img/event_Background.png);</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupBox_task_5">
+         <property name="title">
+          <string>Task 5</string>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_6">
+          <item>
+           <widget class="QCheckBox" name="checkBox_task_5">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QTextEdit" name="textEdit_task_5">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-image: url(:/img/event_Background.png);</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QGroupBox" name="groupBox_events">
+      <property name="title">
+       <string>Events</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QGroupBox" name="groupBox_event_1">
+         <property name="title">
+          <string>Event 1</string>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <item>
+           <widget class="QCheckBox" name="checkBox_event_1">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPlainTextEdit" name="plainTextEdit_event_1">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-image: url(:/img/note_Background.png);</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupBox_event_2">
+         <property name="title">
+          <string>Event 2</string>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_7">
+          <item>
+           <widget class="QCheckBox" name="checkBox_event_2">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPlainTextEdit" name="plainTextEdit_event_2">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-image: url(:/img/note_Background.png);</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QGroupBox" name="groupBox_notes">
+      <property name="title">
+       <string>Notes</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QGroupBox" name="groupBox_note_1">
+         <property name="title">
+          <string>Note 1</string>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_9">
+          <item>
+           <widget class="QCheckBox" name="checkBox_note_1">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPlainTextEdit" name="plainTextEdit_note_1">
+            <property name="styleSheet">
+             <string notr="true">background-image: url(:/img/note_Background.png);</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupBox_note_2">
+         <property name="title">
+          <string>Note 2</string>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_10">
+          <item>
+           <widget class="QCheckBox" name="checkBox_note_2">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPlainTextEdit" name="plainTextEdit_note_2">
+            <property name="styleSheet">
+             <string notr="true">background-image: url(:/img/note_Background.png);</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QGroupBox" name="groupBox_save_quit">
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/img/bottom_Background.png);</string>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_8">
+       <item>
+        <widget class="QPushButton" name="pushButton_save">
+         <property name="text">
+          <string>Save</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_save_quit">
+         <property name="text">
+          <string>Save and Quit</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QGroupBox" name="groupBox_save_quit2">
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/img/bottom_Background.png);</string>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_8">
+       <item>
+        <widget class="QPushButton" name="pushButton_save2">
+         <property name="text">
+          <string>Save</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_save_quit2">
+         <property name="text">
+          <string>Save and Quit</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="QGroupBox" name="groupBox_save_quit3">
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/img/bottom_Background.png);</string>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_8">
+       <item>
+        <widget class="QPushButton" name="pushButton_save3">
+         <property name="text">
+          <string>Save</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_save_quit3">
+         <property name="text">
+          <string>Save and Quit</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1543</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionSave"/>
+    <addaction name="actionClear_All"/>
+    <addaction name="actionReload"/>
+    <addaction name="actionQuit"/>
+   </widget>
+   <widget class="QMenu" name="menuSettings">
+    <property name="title">
+     <string>Settings</string>
+    </property>
+    <addaction name="actionSave_Position"/>
+    <addaction name="actionSave_Postion_on_Exit"/>
+    <addaction name="actionEvents_Save_to_Text_File"/>
+    <addaction name="actionEvents_Save_to_Many_Text_Files"/>
+    <addaction name="actionNotes_Save_to_Text_File"/>
+    <addaction name="actionNotes_Save_to_Many_Text_Files"/>
+    <addaction name="actionTasks_Save_to_Text_File"/>
+    <addaction name="actionTasks_Save_to_Many_Text_Files"/>
+    <addaction name="actionReset"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionJoin_Our_Social_Groups"/>
+    <addaction name="actionGettings_Started"/>
+    <addaction name="actionAbout"/>
+    <addaction name="actionAbout_QT"/>
+    <addaction name="actionAbout_TODOs"/>
+    <addaction name="actionCredits"/>
+    <addaction name="actionKeyboard_Shortcuts"/>
+    <addaction name="actionUsers_Guide"/>
+    <addaction name="actionCopyright"/>
+    <addaction name="actionDonate"/>
+   </widget>
+   <widget class="QMenu" name="menuView">
+    <property name="title">
+     <string>View</string>
+    </property>
+    <addaction name="actionToggle"/>
+    <addaction name="actionView_All"/>
+    <addaction name="actionShow_Events"/>
+    <addaction name="actionNotes_On"/>
+    <addaction name="actionShow_Tasks"/>
+    <addaction name="separator"/>
+    <addaction name="actionShow_Tool_Bar"/>
+    <addaction name="actionSave_Quit_Visible"/>
+    <addaction name="actionAuto_Hide"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menuFeatures">
+    <property name="title">
+     <string>Features</string>
+    </property>
+    <addaction name="actionShow_Light_Icons"/>
+    <addaction name="actionOrder"/>
+    <addaction name="actionRecord_Screen"/>
+    <addaction name="actionScreen_Shot"/>
+    <addaction name="separator"/>
+    <addaction name="actionShow_Fortune"/>
+    <addaction name="actionShow_Fortune_Before_After"/>
+    <addaction name="separator"/>
+    <addaction name="actionShow_Current_Weather"/>
+    <addaction name="actionShow_Weather_Before_After"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuView"/>
+   <addaction name="menuFeatures"/>
+   <addaction name="menuSettings"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionQuit"/>
+   <addaction name="actionSave"/>
+   <addaction name="actionScreen_Shot"/>
+   <addaction name="actionRecord_Screen"/>
+   <addaction name="actionView_All"/>
+   <addaction name="actionToggle"/>
+   <addaction name="actionShow_Tasks"/>
+   <addaction name="actionShow_Events"/>
+   <addaction name="actionNotes_On"/>
+   <addaction name="separator"/>
+   <addaction name="actionAuto_Hide"/>
+   <addaction name="actionClear_All"/>
+   <addaction name="actionReload"/>
+  </widget>
+  <action name="actionQuit">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/img/quit_icon_white.png</normaloff>:/img/quit_icon_white.png</iconset>
+   </property>
+   <property name="text">
+    <string>Quit and Save</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Q</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/img/save_icon_white.png</normaloff>:/img/save_icon_white.png</iconset>
+   </property>
+   <property name="text">
+    <string>Save</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionAbout_QT">
+   <property name="icon">
+    <iconset>
+     <normalon>:/img/QT_Logo.png</normalon>
+    </iconset>
+   </property>
+   <property name="text">
+    <string>About QT</string>
+   </property>
+  </action>
+  <action name="actionSave_Position">
+   <property name="text">
+    <string>Save Position</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+P</string>
+   </property>
+  </action>
+  <action name="actionSave_Quit_Visible">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Hide Save and Quit</string>
+   </property>
+  </action>
+  <action name="actionShow_Events">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/img/event_icon_white.png</normaloff>:/img/event_icon_white.png</iconset>
+   </property>
+   <property name="text">
+    <string>Events On</string>
+   </property>
+   <property name="toolTip">
+    <string>Events On/Off</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+E</string>
+   </property>
+  </action>
+  <action name="actionReload">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/img/Reload_icon_white.png</normaloff>:/img/Reload_icon_white.png</iconset>
+   </property>
+   <property name="text">
+    <string>Reload</string>
+   </property>
+  </action>
+  <action name="actionClear_All">
+   <property name="icon">
+    <iconset>
+     <normalon>:/img/clear_icon_white.png</normalon>
+    </iconset>
+   </property>
+   <property name="text">
+    <string>Clear Window</string>
+   </property>
+  </action>
+  <action name="actionReset">
+   <property name="text">
+    <string>Reset</string>
+   </property>
+  </action>
+  <action name="actionAuto_Hide">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>:/img/show_icon_white.png</normalon>
+    </iconset>
+   </property>
+   <property name="text">
+    <string>Auto Hide</string>
+   </property>
+  </action>
+  <action name="actionShow_Tasks">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>:/img/task_icon_white.png</normalon>
+    </iconset>
+   </property>
+   <property name="text">
+    <string>Task On</string>
+   </property>
+   <property name="toolTip">
+    <string>Task On/Off</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+K</string>
+   </property>
+  </action>
+  <action name="actionToggle">
+   <property name="icon">
+    <iconset>
+     <normalon>:/img/toggle_icon_white.png</normalon>
+    </iconset>
+   </property>
+   <property name="text">
+    <string>Toggle</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+T</string>
+   </property>
+  </action>
+  <action name="actionEvents_Save_to_Text_File">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Events Save to Text File</string>
+   </property>
+  </action>
+  <action name="actionEvents_Save_to_Many_Text_Files">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Events Save to Many Text Files</string>
+   </property>
+  </action>
+  <action name="actionTasks_Save_to_Text_File">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Tasks Save to Text File</string>
+   </property>
+  </action>
+  <action name="actionTasks_Save_to_Many_Text_Files">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Tasks Save to Many Text Files</string>
+   </property>
+  </action>
+  <action name="actionNotes_On">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/img/notes_icon_white.png</normaloff>:/img/notes_icon_white.png</iconset>
+   </property>
+   <property name="text">
+    <string>Notes On</string>
+   </property>
+   <property name="toolTip">
+    <string>Notes On/Off</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
+   </property>
+  </action>
+  <action name="actionNotes_Save_to_Text_File">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Notes Save to Text File</string>
+   </property>
+  </action>
+  <action name="actionNotes_Save_to_Many_Text_Files">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Notes Save to Many Text Files</string>
+   </property>
+  </action>
+  <action name="actionView_All">
+   <property name="icon">
+    <iconset>
+     <normalon>:/img/viewall_icon_white.png</normalon>
+    </iconset>
+   </property>
+   <property name="text">
+    <string>View All</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+A</string>
+   </property>
+  </action>
+  <action name="actionOrder">
+   <property name="text">
+    <string>Events, Notes, Tasks</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="actionShow_Tool_Bar">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Show Tool Bar</string>
+   </property>
+  </action>
+  <action name="actionJoin_Our_Social_Groups">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/img/ashersprograms_logo.png</normaloff>:/img/ashersprograms_logo.png</iconset>
+   </property>
+   <property name="text">
+    <string>Join Our Social Groups</string>
+   </property>
+  </action>
+  <action name="actionGettings_Started">
+   <property name="text">
+    <string>Gettings Started</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/img/todoList_icon.png</normaloff>:/img/todoList_icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+  <action name="actionCredits">
+   <property name="text">
+    <string>Credits</string>
+   </property>
+  </action>
+  <action name="actionKeyboard_Shortcuts">
+   <property name="text">
+    <string>Keyboard Shortcuts</string>
+   </property>
+  </action>
+  <action name="actionUsers_Guide">
+   <property name="text">
+    <string>Users Guide</string>
+   </property>
+  </action>
+  <action name="actionCopyright">
+   <property name="text">
+    <string>Copyright</string>
+   </property>
+  </action>
+  <action name="actionDonate">
+   <property name="text">
+    <string>Donate</string>
+   </property>
+  </action>
+  <action name="actionShow_Fortune">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Show Fortune</string>
+   </property>
+  </action>
+  <action name="actionShow_Current_Weather">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Show Current Weather</string>
+   </property>
+  </action>
+  <action name="actionShow_Fortune_Before_After">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Show Fortune Before/After</string>
+   </property>
+  </action>
+  <action name="actionShow_Weather_Before_After">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Show Weather Before/After</string>
+   </property>
+  </action>
+  <action name="actionSave_Postion_on_Exit">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Save Postion on Exit</string>
+   </property>
+  </action>
+  <action name="actionShow_Light_Icons">
+   <property name="text">
+    <string>Show Dark Icons</string>
+   </property>
+   <property name="toolTip">
+    <string>Show Light Icons</string>
+   </property>
+  </action>
+  <action name="actionScreen_Shot">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/img/screenshot_icon_white.png</normaloff>:/img/screenshot_icon_white.png</iconset>
+   </property>
+   <property name="text">
+    <string>Screen Shot</string>
+   </property>
+  </action>
+  <action name="actionRecord_Screen">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/img/screenrecorder_icon_white.png</normaloff>:/img/screenrecorder_icon_white.png</iconset>
+   </property>
+   <property name="text">
+    <string>Record Screen</string>
+   </property>
+  </action>
+  <action name="actionAbout_TODOs">
+   <property name="text">
+    <string>About TODOs</string>
+   </property>
+  </action>
+ </widget>
+ <tabstops>
+  <tabstop>pushButton_save</tabstop>
+  <tabstop>pushButton_save_quit</tabstop>
+  <tabstop>plainTextEdit_event_1</tabstop>
+  <tabstop>plainTextEdit_event_2</tabstop>
+  <tabstop>checkBox_task_1</tabstop>
+  <tabstop>checkBox_task_2</tabstop>
+  <tabstop>checkBox_task_3</tabstop>
+  <tabstop>checkBox_task_4</tabstop>
+  <tabstop>checkBox_task_5</tabstop>
+  <tabstop>checkBox_event_1</tabstop>
+  <tabstop>checkBox_event_2</tabstop>
+ </tabstops>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>
