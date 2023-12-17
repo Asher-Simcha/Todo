@@ -1,0 +1,57 @@
+#!/usr/bin/bash
+# Title: postinst
+# Author: Asher Simcha
+# Additional Authors: 
+# Additional Authors: 
+# Filename: postinst
+# Description: This file is to help finish with post installation need.
+# Additional_Notes: The need for this program is to copy premade fortunes to the fortunes directory database.
+# Version: 1.06
+# Date: 12-15-2023
+# Last_Modified: 12-15-2023
+# Source: 
+# Additional_Sources: 
+# License: 
+# Additional_Licenses: 
+# Credits: 
+# Additional Credits: 
+# Additional Credits: 
+# Audio_Location: 
+# Location_of_the_Video: 
+# Embed_YouTube: 
+# Website_For_Video: 
+# Start_Time: 
+# Parent_File: 
+# Sibling_File: 
+# Sibling_File: 
+# Child_File: 
+# Child_File: 
+# Linkable: 1
+# Display_Links: 1
+# Display_Code: 1
+# Visible: 1
+# Article: 
+ 
+# compile options: Must be run as root
+# exit codes: there are NON 
+# Start Your Script Here
+# DEBUG=1; # This turns DEBUG ON
+DEBUG=0; # This turns DEBUG OFF
+copyfrom="/usr/share/ashersprograms/todolist/fortunes"
+copyTo="/usr/share/games/fortunes"
+
+if [ ! -e $copyTo ]; then
+    mkdir $copyTo
+fi
+for file in $(ls "$copyfrom"); do
+    fileLocation="$copyTo/$file"
+    if [ ! -e "$fileLocation" ]; then
+        if [ $DEBUG -eq "1" ]; then echo "Copying $copyfrom/$file to $copyTo/$file"; fi
+         if [ $DEBUG -eq "1" ]; then echo "Run with DEBUG OFF; if you want to copy the files"; fi
+        if [ $DEBUG -eq "0" ]; then sudo cp "$copyfrom/$file" "$copyTo/$file"; fi
+    else
+        if [ $DEBUG -eq "1" ]; then echo "The already exist: $fileLocation"; fi
+    fi
+done
+exit 0;
+# EOF
