@@ -1,0 +1,12 @@
+Package: todolist
+Version: 1.07
+Architecture: i386
+Priority: optional
+Depends: libqt5widgets5, curl, jq, fortune
+Maintainer: Ashers Programs <contact@ashersprograms.com>
+Description: Events, Notes, and Tasks Desktop application aims to simplify your workflow.
+ This application works with Conky and has been developed by Ashers Programs (https://ashersprograms.com).
+ It can run independently or as a companion with Conky, offering features like displaying Events, Notes,
+ Tasks, Weather, and even fortune (if installed).
+ Many themes are included with this package.
+ This project aims to allow you to customize Conky the way you want it to look and act.
