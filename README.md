@@ -1,85 +1,59 @@
-# Todo
+# Todo List
 
-<img src="https://ashersprograms.com/img/logo.png" width="250" >
+<img src="https://ashersprograms.com/img/logo.png" width="250" alt="Ashers Programs Logo">
 
-Ashers Programs.com presents,
+AshersPrograms.com presents,
 
-![Logo](https://ashersprograms.com/img/todoList_icon.png) 
+![Todo List Icon](https://ashersprograms.com/img/todoList_icon.png) 
 
 ## Description
-This is a BETA Application in development. 
-
-To Do List is a Stand Alone and Companion App for Conky including themes that works with both.
-
-The Desktop application is designed to make it easy for you to access what you need done, upcoming events, and important short notes. It accompishes this by using Conky as a display mechonizism display your needed information directly onto the desktop.
+**Todo List** is a BETA application currently in development. It's a versatile desktop application that integrates with Conky to display tasks, events, and notes directly on your desktop, enhancing productivity and organization.
 
 ## Features
-With quick access to for Events, Notes, and Tasks.
+- **Integration with Conky:** Displays tasks, events, and notes seamlessly on your desktop.
+- **Selective Display:** Information is shown only when stored in Todo List, keeping your Conky theme uncluttered.
+- **Quick Links:** Easy access to tools like Screen Shot, Simple Screen Recorder, MX Conky, MX Conky Manager, and MX Conky Toggle. Icons for these tools are visible only if they are installed on your system.
+- **Automatic Updates:** Ensures you always have the latest version of the application.
 
-Only Shows information if you have it stored with Todo List. Otherwise it stay out of the way of your Conky Theme.
+## Screenshots
+Explore a range of themes and detailed views on [Ashers Programs.com - About Todo List](https://ashersprograms.com/?program=todolist#About).
 
-Has quick links to:
-Screen Shot,
-Simple Screen Recorder,
-MX Conky,
-MX Conky Manager, and
-MX Conky Toggle.
-* Special Note: If these programs are NOT installed on your system the ICON will NOT show up.
-
-Automaticly checks to make sure that you have the most up today Application!
-
-## Screen Shots
-Here is a Quick over view for a more detailed look at all the themes that are available check out. [Ashers Programs.com About Todo](https://ashersprograms.com/?program=todolist#About)
-
-![screenshot](https://www.ashersprograms.com/img/todolist/Screenshot_2.png)
-<img src="https://ashersprograms.com/img/conkythemes/Todo-Dots.png" width="250" >
-<img src="https://ashersprograms.com/img/conkythemes/Todo-Comfort.png" width="250" >
-<img src="https://ashersprograms.com/img/conkythemes/Todo-MX-Clock.png" width="250" >
+![Todo List Screenshot](https://www.ashersprograms.com/img/todolist/Screenshot_2.png)
+<img src="https://ashersprograms.com/img/conkythemes/Todo-Dots.png" width="250" alt="Todo Dots Theme">
+<img src="https://ashersprograms.com/img/conkythemes/Todo-Comfort.png" width="250" alt="Todo Comfort Theme">
+<img src="https://ashersprograms.com/img/conkythemes/Todo-MX-Clock.png" width="250" alt="Todo MX Clock Theme">
 
 ## Requirements
 
-- libqt5widgets5 # The program is written with QT5
-- jq # Command line JSON processor.
+- **libqt5widgets5:** The program is written with QT5.
+- **jq:** Command-line JSON processor.
 
-Not Required but recommended:
-- curl # This will help get your current Weather.
+Recommended but not required:
+- **curl:** For fetching current weather data.
+- **fortune:** Displays humorous or insightful quotes.
 
-Not Required but recommended:
-- fortune # This Will display fortunes for you to read. This will display funny and or quick helpful comments.
-
-Prefer that Conky is install and set up, with Conky Themes being accessed in the directory ~/.conky/
+Ideally, have Conky installed and set up, with themes located in `~/.conky/`.
 
 ## Installation
 
-If you choose to install the .deb package, The debian package will install all required and non-required programs. 
+Download the .deb package from [Todo List DEBIAN_PACKAGE](https://github.com/Asher-Simcha/Todo/tree/main/DEBIAN_PACKAGE). Select the latest version for updated features. The application includes an update notifier.
 
-The Debian Packages can be found at: https://github.com/Asher-Simcha/Todo/tree/main/DEBIAN_PACKAGE
-Please choose the Package with the highest number to get the most update Application. There is a built in Update Check so if I update the Application you will be notified.
+The installation includes a choice of databases for hints, tricks, and interesting facts, such as:
+- Ashers Program tips.
+- MX-Linux tips.
+- MX-Linux tips with a pirate accent.
+- Unresolved scientific mysteries.
 
-Extra Notes about fortune will be installed along side AshersPrograms, Choice Database choice which include:
-- Ashers Program hints and tricks.
-- MX-Linux hints and tricks.
-- MX-Linux hints and tricks with a Pirate accent.
-- Current Science Mysteries that still need to be solved.
-
-Installs with currently about 14 Themes that will work with Conky, you will notice that they are titled TODO...
+Approximately 14 Conky themes titled 'TODO...' are available upon installation.
 
 ## Usage
-For Those that Want Desktop Visual of Task, Events, and Notes for quick reference.
+Ideal for those seeking a desktop visual of tasks, events, and notes for quick reference.
 
 ## Contributing
-
-Yes I would always encourage any participation that I can get. And for those that are sitting on the fence I must express my incouragement to start helping out.
+Contributions are highly encouraged! If you're considering contributing, I urge you to take the leap and help enhance this project.
 
 ## License
-The license can be found at [Ashers Programs Copyright Section](http://192.168.12.177/ashersprograms.com/index.php?program=todolist&section=Copyright).
-
-However for about the next 2 years I would ask the comminity let me finish developing the Application. 
-
-The Application is under the GNU GENERAL PUBLIC LICENSE Version 3. 
+The application is licensed under the [GNU GENERAL PUBLIC LICENSE Version 3](LICENSE_LINK). For the next 2 years, community contributions are welcomed, but major development decisions will be primarily guided by the original developers.
 
 ## More Information
-
-For More detailed information check out.
-[Ashers Programs.com](http://192.168.12.177/ashersprograms.com/index.php?program=todolist)
-
+For detailed information, visit [Ashers Programs - Todo List](http://192.168.12.177/ashersprograms.com/index.php?program=todolist).
