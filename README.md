@@ -24,9 +24,14 @@ Simple Screen Recorder,
 MX Conky,
 MX Conky Manager, and
 MX Conky Toggle.
+* Special Note: If these programs are NOT installed on your system the ICON will NOT show up.
+
+Automaticly checks to make sure that you have the most up today Application!
 
 ## Screen Shots
 Here is a Quick over view for a more detailed look at all the themes that are available check out. [Ashers Programs.com About Todo](https://ashersprograms.com/?program=todolist#About)
+
+!(https://www.ashersprograms.com/img/todolist/Screenshot_2.png)
 
 ## Requirements
 
@@ -43,7 +48,10 @@ Prefer that Conky is install and set up, with Conky Themes being accessed in the
 
 ## Installation
 
-If you choose to install the .deb package, The debian package will install all required and non-required programs.
+If you choose to install the .deb package, The debian package will install all required and non-required programs. 
+
+The Debian Packages can be found at: https://github.com/Asher-Simcha/Todo/tree/main/DEBIAN_PACKAGE
+Please choose the Package with the highest number to get the most update Application. There is a built in Update Check so if I update the Application you will be notified.
 
 Extra Notes about fortune will be installed along side AshersPrograms, Choice Database choice which include:
 - Ashers Program hints and tricks.
