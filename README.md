@@ -1,6 +1,7 @@
 # Todo
-
-![Logo](https://ashersprograms.com/img/todoList_icon.png) Brought you by (Ashers Programs.com) [https://www.ashersprograms.com/img/logo.png]
+![Ashers Programs.com Logo](https://www.ashersprograms.com/img/logo.png)
+Ashers Programs.com presents to you,
+![Logo](https://ashersprograms.com/img/todoList_icon.png) 
 
 ## Description
 This is a BETA Application in development. 
