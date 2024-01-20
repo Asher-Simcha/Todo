@@ -1,7 +1,7 @@
 # Todo
-<div style="text-align: center;">
+
 <img src="https://ashersprograms.com/img/logo.png" width="250" >
-</div> 
+
 Ashers Programs.com presents,
 ![Logo](https://ashersprograms.com/img/todoList_icon.png) 
 
