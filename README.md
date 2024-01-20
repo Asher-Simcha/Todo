@@ -11,8 +11,12 @@ This is a BETA Application in development.
 
 To Do List is a Stand Alone and Companion App for Conky including themes that works with both.
 
+The Desktop application is designed to make it easy for you to access what you need done, upcoming events, and important short notes. It accompishes this by using Conky as a display mechonizism display your needed information directly onto the desktop.
+
 ## Features
 With quick access to for Events, Notes, and Tasks.
+
+Only Shows information if you have it stored with Todo List. Otherwise it stay out of the way of your Conky Theme.
 
 Has quick links to:
 Screen Shot,
@@ -54,9 +58,14 @@ For Those that Want Desktop Visual of Task, Events, and Notes for quick referenc
 Yes I would always encourage any participation that I can get. And for those that are sitting on the fence I must express my incouragement to start helping out.
 
 ## License
+The license can be found at [Ashers Programs Copyright Section](http://192.168.12.177/ashersprograms.com/index.php?program=todolist&section=Copyright).
+
+However for about the next 2 years I would ask the comminity let me finish developing the Application. 
+
+The Application is under the GNU GENERAL PUBLIC LICENSE Version 3. 
 
 ## More Information
 
 For More detailed information check out.
-[Ashers Programs.com] (https://ashersprograms.com/?program=todolist)
+[Ashers Programs.com](http://192.168.12.177/ashersprograms.com/index.php?program=todolist)
 
