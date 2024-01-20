@@ -25,6 +25,9 @@ MX Conky,
 MX Conky Manager, and
 MX Conky Toggle.
 
+## Screen Shots
+Here is a Quick over view for a more detailed look at all the themes that are available check out. [Ashers Programs.com About Todo](https://ashersprograms.com/?program=todolist#About)
+
 ## Requirements
 
 - libqt5widgets5 # The program is written with QT5
