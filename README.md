@@ -10,10 +10,12 @@ AshersPrograms.com presents,
 **Todo List** is a BETA application currently in development. It's a versatile desktop application that integrates with Conky to display tasks, events, and notes directly on your desktop, enhancing productivity and organization.
 
 ## Features
-- **Integration with Conky:** Displays tasks, events, and notes seamlessly on your desktop.
-- **Selective Display:** Information is shown only when stored in Todo List, keeping your Conky theme uncluttered.
-- **Quick Links:** Easy access to tools like Screen Shot, Simple Screen Recorder, MX Conky, MX Conky Manager, and MX Conky Toggle. Icons for these tools are visible only if they are installed on your system.
-- **Automatic Updates:** Ensures you always have the latest version of the application.
+- **Integration with Conky:** Seamlessly displays tasks, events, and notes on your desktop.
+- **Selective Display:** Shows information only when stored in Todo List to maintain a clean Conky theme.
+- **Up-to-Date Weather:** Provides current weather updates using AccuWeather.com, with an option to toggle this feature ON/OFF.
+- **Displays Fortunes:** Offers insightful fortunes related to your favorite OS, MX Linux, along with Ashers tips and tricks, and unsolved science mysteries. This feature can also be toggled ON/OFF.
+- **Quick Links:** Access tools like Screen Shot, Simple Screen Recorder, MX Conky, MX Conky Manager, and MX Conky Toggle. Icons appear only if these tools are installed.
+- **Automatic Updates:** Ensures the application is always up-to-date.
 
 ## Screenshots
 Explore a range of themes and detailed views on [Ashers Programs.com - About Todo List](https://ashersprograms.com/?program=todolist#About).
